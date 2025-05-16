@@ -7,36 +7,34 @@
 ### Repositorios
 * [frontend app](https://github.com/FDB-52450/proyectoDSW-frontend)
 * [backend app](https://github.com/FDB-52450/proyectoDSW-backend)
-*Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
 
 ## Tema
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+  El sistema a modelar consiste en una página de computación, llamada TECH NEXUS, que vende varios tipos de hardware de computación, como monitores, placas de video, notebooks y demás, inspirado en diferentes paginas de computacion como Hardcore Computacion (https://hardcorecomputacion.com.ar/) o CompraGamer (https://compragamer.com/)
+  Los usuarios de la página podrán ser capaces de visualizar todos los productos disponibles (con stock) que ofrece el local, siendo capaces de agregarlos a sus carritos de compras para posteriormente poder realizar un pedido con los mismos.
+  Los administradores de la página serán capaces de gestionar los productos, marcas y categorias de la pagina, pudiendo crear, borrar o modificar atributos existentes de los mismos. Además, se encargarán de confirmar la finalización de los pedidos en el sistema.
+
 
 ### Modelo
-![imagen del modelo]()
-
-*Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
+![(https://github.com/FDB-52450/tp/blob/main/modeloDominio-paginaHardware.png?raw=true)]()
 
 ## Alcance Funcional 
 
 ### Alcance Mínimo
 
-*Nota*: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El 
-
 Regularidad:
 |Req|Detalle|
 |:-|:-|
 |CRUD simple|1. CRUD Marca<br>2. CRUD Categoria<br>3. CRUD Pedido<br>4. CRUD Administrador|
-|CRUD dependiente|1. CRUD Producto {depende de} CRUD Marca y CRUD Categoria<br>2. CRUD PedidoProd {depende de} CRUD Producto y CRUD Pedido<br>3. CRUD HistorialPrecio {depende de} CRUD Producto<br>4. CRUD Carrito {depende de} CRUD Producto|
-|Listado<br>+<br>detalle| 1. Listado de productos filtrado por categoria, rango de precio y marca => detalle CRUD Habitacion<br> 2. Listado de pedidos filtrado por numero de pedido, rango de fecha y estado|
+|CRUD dependiente|1. CRUD Producto {depende de} CRUD Marca y CRUD Categoria<br>2. CRUD PedidoProd {depende de} CRUD Producto y CRUD Pedido|
+|Listado<br>+<br>detalle| 1. Listado de productos filtrado por nombre, categoria, rango de precio y/o marca => detalle muestra datos completos del producto<br> 2. Listado de pedidos filtrado por numero de pedido, rango de fecha y/o estado => detalle muestra datos completos del pedido|
 |CUU/Epic|1. Agregar un producto al carrito<br>2. Finalizar la compra de un pedido|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Marca<br>2. CRUD Categoria<br>3. CRUD Pedido<br>4. CRUD Administrador<br>5. CRUD Producto<br>6. CRUD PedidoProd<br>7. CRUD HistorialPrecio<br>8. CRUD Carrito (solo memoria)|
+|CRUD |1. CRUD Marca<br>2. CRUD Categoria<br>3. CRUD Pedido<br>4. CRUD Administrador<br>5. CRUD Producto<br>6. CRUD PedidoProd|
 |CUU/Epic|1. Agregar un producto al carrito<br>2. Finalizar la compra de un pedido<br>3. Confirmar pedido hecho con exito|
 
 
@@ -46,7 +44,7 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
-|CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
-|Otros|1. Envío de recordatorio de reserva por email|
+|Listados |1. Listado de productos (para administradores) filtrado por id, nombre y/o stock => detalle muestra datos completos de producto y CRUD producto|
+|CUU/Epic|1. Crear producto|
+|Otros|1. Uso de imagenes para mostrar productos y marcas|
 

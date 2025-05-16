@@ -10,9 +10,9 @@
 
 ## Tema
 ### Descripción
-  El sistema a modelar consiste en una página de computación, llamada TECH NEXUS, que vende varios tipos de hardware de computación, como monitores, placas de video, notebooks y demás, inspirado en diferentes paginas de computacion como Hardcore Computacion (https://hardcorecomputacion.com.ar/) o CompraGamer (https://compragamer.com/)
-  Los usuarios de la página podrán ser capaces de visualizar todos los productos disponibles (con stock) que ofrece el local, siendo capaces de agregarlos a sus carritos de compras para posteriormente poder realizar un pedido con los mismos.
-  Los administradores de la página serán capaces de gestionar los productos, marcas y categorias de la pagina, pudiendo crear, borrar o modificar atributos existentes de los mismos. Además, se encargarán de confirmar la finalización de los pedidos en el sistema.
+ El sistema a modelar consiste en una página de computación, llamada TECH NEXUS, que vende varios tipos de hardware de computación, como monitores, placas de video, notebooks y demás, inspirado en diferentes paginas de computacion como Hardcore Computacion (https://hardcorecomputacion.com.ar/) o CompraGamer (https://compragamer.com/)
+ Los usuarios de la página podrán ser capaces de visualizar todos los productos disponibles (con stock) que ofrece el local, siendo capaces de agregarlos a sus carritos de compras para posteriormente poder realizar un pedido con los mismos.
+ Los administradores de la página serán capaces de gestionar los productos, marcas y categorias de la pagina, pudiendo crear, borrar o modificar atributos existentes de los mismos. Además, se encargarán de confirmar la finalización de los pedidos en el sistema.
 
 
 ### Modelo

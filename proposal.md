@@ -16,7 +16,7 @@
 
 
 ### Modelo
-![(https://github.com/FDB-52450/tp/blob/main/modeloDominio-paginaHardware.png?raw=true)]()
+![](https://github.com/FDB-52450/tp/blob/eabe2efc290343a5583ff694b95a9ec6f1cb6ac2/modeloDominio-paginaHardware.png)
 
 ## Alcance Funcional 
 

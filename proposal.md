@@ -28,14 +28,14 @@ Regularidad:
 |CRUD simple|1. CRUD Marca<br>2. CRUD Categoria<br>3. CRUD Pedido<br>4. CRUD Administrador<br>5. CRUD Cliente|
 |CRUD dependiente|1. CRUD Producto {depende de} CRUD Marca y CRUD Categoria<br>2. CRUD PedidoProd {depende de} CRUD Producto y CRUD Pedido|
 |Listado<br>+<br>detalle| 1. Listado de productos filtrado por nombre, categoria, rango de precio y/o marca => detalle muestra datos completos del producto|
-|CUU/Epic|1. Agregar un producto al carrito<br>2. Finalizar la compra de un pedido|
+|CUU/Epic|1. Realizar un pedido|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
 |CRUD |1. CRUD Marca<br>2. CRUD Categoria<br>3. CRUD Pedido<br>4. CRUD Administrador<br>5. CRUD Producto<br>6. CRUD Cliente|
-|CUU/Epic|1. Agregar un producto al carrito<br>2. Finalizar la compra de un pedido<br>3. Confirmar pedido hecho con exito|
+|CUU/Epic|1. Realizar un pedido<br>2. Confirmar/cancelar pedido|
 
 
 ### Alcance Adicional Voluntario

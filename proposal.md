@@ -25,16 +25,16 @@
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Marca<br>2. CRUD Categoria<br>3. CRUD Pedido<br>4. CRUD Administrador|
+|CRUD simple|1. CRUD Marca<br>2. CRUD Categoria<br>3. CRUD Pedido<br>4. CRUD Administrador<br>5. CRUD Cliente|
 |CRUD dependiente|1. CRUD Producto {depende de} CRUD Marca y CRUD Categoria<br>2. CRUD PedidoProd {depende de} CRUD Producto y CRUD Pedido|
-|Listado<br>+<br>detalle| 1. Listado de productos filtrado por nombre, categoria, rango de precio y/o marca => detalle muestra datos completos del producto<br> 2. Listado de pedidos filtrado por numero de pedido, rango de fecha y/o estado => detalle muestra datos completos del pedido|
+|Listado<br>+<br>detalle| 1. Listado de productos filtrado por nombre, categoria, rango de precio y/o marca => detalle muestra datos completos del producto|
 |CUU/Epic|1. Agregar un producto al carrito<br>2. Finalizar la compra de un pedido|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Marca<br>2. CRUD Categoria<br>3. CRUD Pedido<br>4. CRUD Administrador<br>5. CRUD Producto<br>6. CRUD PedidoProd|
+|CRUD |1. CRUD Marca<br>2. CRUD Categoria<br>3. CRUD Pedido<br>4. CRUD Administrador<br>5. CRUD Producto<br>6. CRUD Cliente|
 |CUU/Epic|1. Agregar un producto al carrito<br>2. Finalizar la compra de un pedido<br>3. Confirmar pedido hecho con exito|
 
 
@@ -42,7 +42,5 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Listado de productos (para administradores) filtrado por id, nombre y/o stock => detalle muestra datos completos de producto y CRUD producto|
-|CUU/Epic|1. Crear producto|
 |Otros|1. Uso de imagenes para mostrar productos y marcas|
 
